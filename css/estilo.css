@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+body, html{
+	height: 100%;
+/*	font: "Lado", sans-serif; */
+	font-family: 'Baloo Tamma 2', cursive;
+}
+/*titulo*/
+
+
+
+/*paralax*/
+.conteudo-paralax{
+	text-align: justify;
+	color: ;
+	padding: 30px 30px;
+}
+.conteudo-paralax h3{
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 40px; 
+}
+.conteudo-paralax p{
+	padding-bottom: 15px;
+	padding-left: 0px;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6{
+	height: 100%;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.caixa1{
+	background-image: url(../imagens/principal-paralax3.jpg);
+}
+.caixa2{
+	background-image: url(../imagens/quarto.jpg);
+/*	background-color: black;*/
+}
+.caixa3{
+	background-image: url(../imagens/restaurante2.jpg);
+}
+.caixa4{
+	background-image: url(../imagens/piscina.jpg);
+}
+
+/***************************
+********************************menu************************/
+#area-menu{
+	background: url(../imagens/titulo-menu.png) center left no-repeat;
+	padding: 20px;
+	border: 0px solid red;
+	height: 50px;
+}
+#menu{
+	border: 0px solid red;
+	text-align: center;
+	margin-top: 9px;
+	float: right;
+}
+
+#menu a{
+	padding: 20px;
+	border: 2px solid #000;
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+}
+#menu a:hover{
+	border: 2px solid #000;
+	background-color: #E6E6E6;
+	color: black;
+	transition: 300ms;
+}
+#menu #reserva{
+	margin-left: 10px;
+	border: 2px solid #fff;
+	background-color: #FE2E2E;
+
+}
+#menu #reserva:hover{
+	border: 2px solid #FE2E2E;
+	background-color: #F78181;
+	font-weight: 900;
+}
+
+/**************************TITULO PARALAX E CENTRALIZAR TITULO
+********************************************************************************/
+.titulos-paralax{
+	display: flex;
+	justify-content: center;
+}
+.centralizar-titulo{
+	margin-top: 30%;
+}
+.centralizar-titulo h1{
+	font-size: 5.0em;
+	text-transform: uppercase;
+	font-weight: 900px;
+	color: #fff;
+	text-decoration: underline;
+}
+
+/*conteudo*/
+#titulo-paralax{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+}
+#titulo-paralax span{
+	background: url(../imagens/titulo-paralax.png) no-repeat center;
+	padding: 400px;
+}
+.lista-horizontal ul img{
+	margin-top:8px; 
+	float: left;
+	position: absolute;
+}
+.lista-horizontal ul img:hover{
+	width: 160px;
+	opacity: 0.7;
+	transition: 400ms;
+	position: absolute;
+}
+
+.lista-horizontal ul li{
+	margin-bottom: 40px;
+	padding: 10px;
+	
+}
+
+.lista-horizontal ul li:hover{
+	background: #0CA8B7;
+}
+
+.lista-horizontal ul li h4{
+	font-size: 1.3em;
+	padding: 5px 0px;
+}
+
+.lista-horizontal h4, p{
+	margin-left: 180px;
+	color: black;
+}
+
+.area-atividades{
+	display: flex;
+	justify-content: center;
+}
+.atividades{
+	float: left;
+	background: url(../imagens/atividades.jpg) no-repeat center center;
+	width: 200px;
+	height: 125px;
+	margin: 40px;
+	display: block;
+	text-align: center;
+}
+.atividades:hover{
+	transition: 500ms;
+	float: left;
+	background: url(../imagens/atividades.jpg) no-repeat center center;
+	opacity: 0.9;
+	width: 200px;
+	height: 125px;
+	margin: 40px;
+	display: block;
+	text-align: center;
+}
+.atividades a{
+	display: block;
+	background: rgba(255, 255, 255, 0.5);
+	font-size: 1.1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+}
+.atividades a:hover{
+	display: block;
+	background: rgba(255, 255, 255, 0.8);
+	font-size: 1.1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+}
+
+/*formatação geral*/
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+
+/*centralizar*/
+
+.center{
+	text-align: center;
+}
